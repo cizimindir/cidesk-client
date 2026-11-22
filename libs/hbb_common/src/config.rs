@@ -114,7 +114,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["rd.cizimindir.net"];
-pub const RS_PUB_KEY: &str = "wLfhWAz3JqyNYVNPmsbzA67KrCBpFQIQdPCDCiLf6GA=";
+pub const RS_PUB_KEY: &str = "yhJiJ8uNYcUUtFGeOz4mo7sag9dDuRK3ibgL66j49Cc=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
