@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CiDesk İndir — Uzak Bağlantı</title>
+<meta name="description" content="CiDesk uzak bağlantı aracını Windows, macOS ve Android için indirin.">
+<link rel="icon" href="ci.svg" type="image/svg+xml">
+<style>
+  :root{
+    --bg:#f6f8fc; --card:#fff; --text:#14213d; --muted:#5b6478; --line:#e3e8f2;
+    --brand:#50b3e5; --brand2:#546bb1; --btn:#2f6fd6; --btnh:#2559ad;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1420; --card:#171e2e; --text:#e8edf7; --muted:#9aa5bd; --line:#26304a; --btn:#3d7ee6; --btnh:#5590ee; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+  .wrap{max-width:880px;margin:0 auto;padding:48px 16px 64px}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:28px}
+  header img{width:56px;height:56px}
+  header h1{font-size:28px;margin:0;letter-spacing:-.01em}
+  header p{margin:2px 0 0;color:var(--muted)}
+  .hero{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;margin-bottom:20px}
+  .hero h2{margin:0 0 6px;font-size:20px}
+  .hero p{margin:0 0 18px;color:var(--muted)}
+  .btn{display:inline-flex;align-items:center;gap:10px;background:var(--btn);color:#fff;text-decoration:none;font-weight:600;padding:13px 22px;border-radius:10px}
+  .btn:hover{background:var(--btnh)}
+  .btn small{font-weight:400;opacity:.85}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{margin:0 0 4px;font-size:17px}
+  .card p{margin:0 0 14px;color:var(--muted);font-size:14px}
+  .card a{display:flex;justify-content:space-between;gap:10px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;margin-top:8px}
+  .card a:hover{border-color:var(--brand)}
+  .card a span{color:var(--muted);white-space:nowrap}
+  h2.sec{font-size:18px;margin:8px 0 12px}
+  ol{margin:0;padding-left:20px;color:var(--muted)}
+  ol li{margin:6px 0}
+  ol b{color:var(--text)}
+  footer{margin-top:40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="ci.svg" alt="CiDesk">
+    <div>
+      <h1>CiDesk</h1>
+      <p>Uzak bağlantı ve teknik destek aracı</p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2 id="hero-title">CiDesk'i indirin</h2>
+    <p id="hero-text">Destek ekibimizin bilgisayarınıza bağlanabilmesi için CiDesk'i indirip açın ve ekrandaki <b>ID</b> ile <b>parolayı</b> bize iletin.</p>
+    <a class="btn" id="hero-btn" href="CiDesk-1.5.1-x86_64.exe">İndir <small id="hero-sub">Windows</small></a>
+  </section>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Windows</h3>
+      <p>Windows 10 / 11</p>
+      <a href="CiDesk-1.5.1-x86_64.exe">Kurulum / çalıştır (.exe) <span>64-bit</span></a>
+      <a href="CiDesk-1.5.1-x86_64.msi">Kurumsal kurulum (.msi) <span>64-bit</span></a>
+      <a href="CiDesk-1.5.1-aarch64.exe">ARM işlemciler (.exe) <span>ARM64</span></a>
+    </div>
+    <div class="card">
+      <h3>macOS</h3>
+      <p>macOS 11 ve üzeri</p>
+      <a href="CiDesk-1.5.1-aarch64.dmg">Apple Silicon (M1–M4) <span>.dmg</span></a>
+      <a href="CiDesk-1.5.1-x86_64.dmg">Intel işlemcili Mac <span>.dmg</span></a>
+    </div>
+    <div class="card">
+      <h3>Android</h3>
+      <p>Telefon ve tabletler</p>
+      <a href="CiDesk-1.5.1-universal.apk">Tüm cihazlar <span>.apk</span></a>
+      <a href="CiDesk-1.5.1-aarch64.apk">64-bit cihazlar (daha küçük) <span>.apk</span></a>
+    </div>
+  </div>
+
+  <h2 class="sec">Nasıl kullanılır?</h2>
+  <div class="card">
+    <ol>
+      <li><b>İndirip açın.</b> Windows "Bilgisayarınız korundu" uyarısı gösterirse <b>Ek bilgi → Yine de çalıştır</b>'a tıklayın.</li>
+      <li>macOS'ta ilk açılışta uygulamaya <b>sağ tıklayıp Aç</b>'ı seçin.</li>
+      <li>Ekranın altında yeşil <b>Hazır</b> yazısını görün.</li>
+      <li>Sol taraftaki <b>ID</b> ve <b>Tek Kullanımlık Parola</b>'yı destek ekibimize iletin.</li>
+      <li>Sürekli erişim gerekiyorsa sol alttaki <b>Yükle</b> butonuyla bilgisayarınıza kurabilirsiniz.</li>
+    </ol>
+  </div>
+
+  <footer>
+    Sürüm 1.5.1 · CiDesk, açık kaynaklı <a href="https://rustdesk.com" rel="noopener">RustDesk</a> projesi (AGPL-3.0) tabanlıdır ·
+    <a href="https://github.com/cizimindir/cidesk-client" rel="noopener">Kaynak kodu</a>
+  </footer>
+</div>
+<script>
+  (function(){
+    var ua = navigator.userAgent || "", p = (navigator.userAgentData && navigator.userAgentData.platform) || navigator.platform || "";
+    var btn = document.getElementById("hero-btn"), sub = document.getElementById("hero-sub");
+    if (/android/i.test(ua)) { btn.href = "CiDesk-1.5.1-universal.apk"; sub.textContent = "Android"; }
+    else if (/iphone|ipad|ipod/i.test(ua)) { btn.href = "#"; sub.textContent = "iOS desteklenmiyor"; }
+    else if (/mac/i.test(p) || /macintosh/i.test(ua)) { btn.href = "CiDesk-1.5.1-aarch64.dmg"; sub.textContent = "macOS (Apple Silicon)"; }
+  })();
+</script>
+</body>
+</html>
